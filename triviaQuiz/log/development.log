@@ -1,0 +1,3 @@
+DEPRECATION WARNING: `Module#parent` has been renamed to `module_parent`. `parent` is deprecated and will be removed in Rails 6.1. (called from require at bin/rails:4)
+DEPRECATION WARNING: `Module#parent` has been renamed to `module_parent`. `parent` is deprecated and will be removed in Rails 6.1. (called from require at bin/rails:4)
+DEPRECATION WARNING: `Module#parent` has been renamed to `module_parent`. `parent` is deprecated and will be removed in Rails 6.1. (called from require at bin/rails:4)

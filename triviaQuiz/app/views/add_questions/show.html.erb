@@ -1,0 +1,27 @@
+<div class="container">
+  <p id="notice"><%= notice %></p>
+
+  <p>
+    <strong>Question:</strong>
+    <%= @add_question.question %>
+  </p>
+
+  <p>
+    <strong>Correctoption1:</strong>
+    <%= @add_question.correctOption1 %>
+  </p>
+
+  <p>
+    <strong>Option2:</strong>
+    <%= @add_question.Option2 %>
+  </p>
+
+  <p>
+    <strong>Option3:</strong>
+    <%= @add_question.Option3 %>
+  </p>
+
+  <%= link_to 'Edit', edit_add_question_path(@add_question) %> |
+  <%= link_to 'Back', add_questions_path %>
+
+</div>
