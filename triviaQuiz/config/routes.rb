@@ -1,4 +1,9 @@
 Rails.application.routes.draw do
+  get 'takequiz/takequiz'
+  get 'scoreboard/scoreboard'
+  root 'add_questions#index'
+
   resources :add_questions
-  # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
+
+
 end

@@ -15,7 +15,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Shadow Health Trivia Quiz</title>
   <!-- Bootstrap -->
-  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="/css/bootstrap.min.css" rel="stylesheet">
   <style>
     .navbar{
       margin-bottom:0;
@@ -46,7 +46,7 @@
         <li><a href="/takequiz/takequiz">Take Health Quiz<span class="sr-only">(current)</span></a></li>
 
 
-        <li><a href="/addquestion/addquestion">Add Question</a></li>
+        <li><%= link_to 'Back', add_questions_path %></li>
 
         <li class="active"><a href="/scoreboard/scoreboard">Score Boards</a></li>
 
@@ -69,7 +69,7 @@
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="js/bootstrap.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
 </body>
 
 
